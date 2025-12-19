@@ -44,3 +44,4 @@ const ProductList = () => {
 };
 
 export default ProductList;
+//Improve product list UI
