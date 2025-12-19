@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { clearCart } from "../features/cart/cartSlice";
 import { useNavigate } from "react-router-dom";
 //checkout form validation
+//Create checkout page
 
 const Checkout = () => {
   const [name, setName] = useState("");
