@@ -15,3 +15,4 @@ const useFetchProducts = () => {
 };
 
 export default useFetchProducts;
+//Refine product fetch hook
