@@ -1,3 +1,4 @@
+//Product item card
 import React from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../features/cart/cartSlice";
