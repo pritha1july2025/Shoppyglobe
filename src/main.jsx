@@ -7,7 +7,7 @@ import router from "./routes/router";
 import "./index.css";
 //Update application routing
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
+//Configure dynamic routing with React Router
 root.render(
   <React.StrictMode>
     <Provider store={store}>
