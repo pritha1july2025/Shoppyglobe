@@ -26,6 +26,7 @@ const ProductItem = ({ product }) => {
         </p>
 
         <div className="mt-4 flex justify-between items-center">
+          
           <button
             onClick={() => dispatch(addToCart(product))}
             className="bg-gray-400 text-white px-5 py-1.5 rounded-full text-sm hover:bg-gray-700 transition"
@@ -46,3 +47,4 @@ const ProductItem = ({ product }) => {
 };
 
 export default ProductItem;
+//Implement add to cart functionality
