@@ -1,3 +1,6 @@
+// Header navigation component
+
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -6,10 +9,8 @@ import { setSearch } from "../features/search/searchSlice";
 const Header = () => {
   const dispatch = useDispatch();
 
-  // ✅ Get cart from Redux
   const cart = useSelector((state) => state.cart);
 
-  // ✅ Calculate total quantity
   const cartCount = cart.reduce(
     (total, item) => total + item.quantity,
     0
