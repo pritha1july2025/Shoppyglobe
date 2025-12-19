@@ -5,6 +5,7 @@ import { clearCart } from "../features/cart/cartSlice";
 import { useNavigate } from "react-router-dom";
 //checkout form validation
 //Create checkout page
+//"Clear cart after successful order"
 
 const Checkout = () => {
   const [name, setName] = useState("");
