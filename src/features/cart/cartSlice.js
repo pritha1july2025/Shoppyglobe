@@ -32,3 +32,4 @@ export const {
 } = cartSlice.actions;
 
 export default cartSlice.reducer;
+// cart state management
