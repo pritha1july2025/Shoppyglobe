@@ -54,3 +54,4 @@ const Cart = () => {
 
 export default Cart;
 //Enhance cart layout
+//Create shopping cart page
