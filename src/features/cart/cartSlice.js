@@ -34,3 +34,4 @@ export const {
 export default cartSlice.reducer;
 // cart state management
 //"Add quantity increment and decrement logic"
+//"Implement remove item from cart"
