@@ -1,3 +1,4 @@
+         “Project Overview”
 # 🛍 ShoppyGlobe – E-commerce React App
 
 ## 📌 Project Overview
