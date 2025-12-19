@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { clearCart } from "../features/cart/cartSlice";
 import { useNavigate } from "react-router-dom";
+//checkout form validation
 
 const Checkout = () => {
   const [name, setName] = useState("");
