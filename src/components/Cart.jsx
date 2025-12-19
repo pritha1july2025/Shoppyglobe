@@ -42,10 +42,6 @@ const Cart = () => {
             <CartItem key={item.id} item={item} />
           ))}
         </div>
-
-        
-
-        {/* Checkout Button */}
         <Link to="/checkout">
           <button className="w-full mt-8 bg-gray-500 hover:bg-gray-700 text-white py-3 rounded-md text-lg shadow">
             Proceed to Checkout
@@ -57,3 +53,4 @@ const Cart = () => {
 };
 
 export default Cart;
+//Enhance cart layout
